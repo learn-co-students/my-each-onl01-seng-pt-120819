@@ -1,3 +1,4 @@
-def my_each # put argument(s) here
-  # code here
+words = ["Hi","Hello","Bye", "Goodbye"]
+def my_each
+words.each { |n| puts "#{n}!" }
 end
