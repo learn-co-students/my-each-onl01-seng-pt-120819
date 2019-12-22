@@ -1,3 +1,8 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(arguements)
+  counter = 0
+  while arguements.length > counter 
+  yield arguements[counter]
+  counter += 1
+end
+arguements
 end
