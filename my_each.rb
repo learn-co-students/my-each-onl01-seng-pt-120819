@@ -1,3 +1,4 @@
-def my_each # put argument(s) here
-  # code here
+def my_each (words)# put argument(s) here
+my_each (words).yield
+my_each (words) do |word|  # code here
 end
